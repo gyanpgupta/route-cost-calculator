@@ -14,8 +14,7 @@ const store = createStore(reducers, applyMiddleware(thunk));
 function App() {
   return (
     <Provider store={store}>
-      <div className="App">
-
+      <div className="App">8
         <Router>
           <Routes >
             <Route path="/" element={<Calculator />} />
